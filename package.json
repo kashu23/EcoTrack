@@ -1,0 +1,29 @@
+{
+  "name": "ecotrack",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "postcss": "./postcss.config.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "react": "18.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "scheduler": "^0.23.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  }
+}
